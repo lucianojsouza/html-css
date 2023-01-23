@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+<style>
+    
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+        color: red;        
+    }
+    a:visited {
+        color: darkred;
+    }
+
+    a:hover {
+        color: black;
+        text-decoration: underline        
+    }
+
+    .especial::before {
+        content: '⇒';
+    }
+    .especial::after { 
+        content: '⇐';
+    } 
+    
+</style>
+</head>
+<body>
+    <h1>Pesronalizando links</h1>
+    <li><a href="https://gustavoguanabara.github.io/" target="_blank">Github Guanabara      
+    </a></li>
+    <li><a href="https://www.cursoemvideo.com/" target="_blank" class="especial">Site do Curso em Video        
+    </a></li>
+    <li><a href="https://www.youtube.com/cursoemvideo" target="_blank" class="especial">
+        Canal do Youtube
+    </a></li>
+    
+
+</body>
+</html>
